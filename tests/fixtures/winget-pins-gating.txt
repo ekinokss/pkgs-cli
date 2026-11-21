@@ -1,0 +1,4 @@
+Name          Id            Version  Source  Pin type
+-------------------------------------------------------
+Example Tool  Example.Tool  1.0.0    winget  Gating
+Shared App    shared.app    2.0.0    winget  Pinning

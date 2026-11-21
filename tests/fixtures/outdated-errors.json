@@ -1,0 +1,10 @@
+{
+  "winget": {
+    "id": "winget",
+    "name": "WinGet",
+    "packages": [
+      { "id": "Example.Tool", "name": "Example Tool", "installed_version": "1.0.0", "latest_version": "failed," }
+    ],
+    "errors": [ "network unreachable" ]
+  }
+}

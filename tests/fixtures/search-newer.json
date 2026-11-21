@@ -1,0 +1,37 @@
+{
+  "winget": {
+    "id": "winget",
+    "name": "WinGet",
+    "packages": [
+      { "id": "Example.Tool", "name": "Example Tool", "latest_version": "1.1.0" },
+      { "id": "New.Tool", "name": "New Tool", "latest_version": "2.1.0" }
+    ],
+    "errors": []
+  },
+  "scoop": {
+    "id": "scoop",
+    "name": "Scoop",
+    "packages": [
+      { "id": "7zip", "latest_version": "26.06" },
+      { "id": "shared.app", "latest_version": "26.05" },
+      { "id": "newtool", "latest_version": "26.05" }
+    ],
+    "errors": []
+  },
+  "npm": {
+    "id": "npm",
+    "name": "Node npm",
+    "packages": [
+      { "id": "typescript", "latest_version": "5.1.0" }
+    ],
+    "errors": []
+  },
+  "choco": {
+    "id": "choco",
+    "name": "Chocolatey",
+    "packages": [
+      { "id": "7zip", "latest_version": "26.6.0" }
+    ],
+    "errors": []
+  }
+}

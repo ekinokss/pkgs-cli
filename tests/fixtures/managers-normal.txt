@@ -1,0 +1,7 @@
+Manager ID  Name                CLI                       Version
+winget      WinGet              ✓ C:\fake\winget.exe       ✓ 1.29.380
+scoop       Scoop               ✓ C:\fake\scoop.cmd        ✓ 0.6.0
+npm         Node npm            ✓ C:\fake\npm.cmd          ✓ 11.20.0
+vscode      Visual Studio Code  ✓ C:\fake\code.cmd         ✓ 1.143.1
+cargo       Rust cargo          ✓ C:\fake\cargo.exe        ✓ 1.99.1
+micro       micro editor        ✓ C:\fake\micro.exe        ✓ 2.0.15

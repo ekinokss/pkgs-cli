@@ -1,0 +1,32 @@
+{
+  "winget": {
+    "id": "winget",
+    "name": "WinGet",
+    "packages": [
+      { "id": "Example.Tool", "name": "Example Tool", "installed_version": "1.0.0", "latest_version": "1.1.0" },
+      { "id": "GoLang.Go", "name": "Go Programming Language", "installed_version": "1.22.0", "latest_version": "1.27.4" },
+      { "id": "shared.app", "name": "Shared App", "installed_version": "2.0.0", "latest_version": "2.1.0" },
+      { "id": "Bad.Version", "name": "Bad Version Tool", "installed_version": "1.0.0", "latest_version": "failed," }
+    ],
+    "errors": []
+  },
+  "scoop": {
+    "id": "scoop",
+    "name": "Scoop",
+    "packages": [
+      { "id": "7zip", "installed_version": "26.05", "latest_version": "26.06" },
+      { "id": "shared.app", "installed_version": "1.5", "latest_version": "1.6" },
+      { "id": "flutter", "installed_version": "Install", "latest_version": "failed," }
+    ],
+    "errors": []
+  },
+  "npm": {
+    "id": "npm",
+    "name": "Node npm",
+    "packages": [
+      { "id": "left-pad", "installed_version": "1.3.0", "latest_version": "1.3.0" },
+      { "id": "typescript", "installed_version": "5.0.0", "latest_version": "5.1.0" }
+    ],
+    "errors": []
+  }
+}

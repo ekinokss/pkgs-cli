@@ -1,0 +1,1 @@
+unexpected winget output that is not a pin table

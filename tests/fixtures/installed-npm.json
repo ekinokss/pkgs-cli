@@ -1,0 +1,10 @@
+{
+  "npm": {
+    "id": "npm",
+    "name": "Node npm",
+    "packages": [
+      { "id": "typescript", "name": null, "installed_version": "5.0.0" }
+    ],
+    "errors": []
+  }
+}

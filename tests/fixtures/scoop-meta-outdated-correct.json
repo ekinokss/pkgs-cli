@@ -1,0 +1,9 @@
+{
+  "scoop": {
+    "id": "scoop",
+    "packages": [
+      { "id": "meta-package-manager", "installed_version": "8.3.0", "latest_version": "9.0.0" }
+    ],
+    "errors": []
+  }
+}

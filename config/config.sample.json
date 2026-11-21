@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "cacheTtlSeconds": 600,
+  "managers": {
+    "uv": "excluded",
+    "pip": "adapter"
+  },
+  "pip": {
+    "interpreters": [
+      {
+        "id": "pip312",
+        "label": "Python 3.12 (global)",
+        "python": "C:\\Python312\\python.exe",
+        "version": "3.12.0",
+        "enabled": true
+      }
+    ]
+  },
+  "guard": [
+    {
+      "manager": "winget",
+      "pattern": "^(Google\\.PlatformTools|GoLang\\.Go|LLVM\\.LLVM|Rustlang\\.Rustup|OpenJS\\.NodeJS|Python\\.Python\\.\\d+\\.\\d+|Python\\.Launcher|EclipseAdoptium\\..+|Microsoft\\.DotNet\\.SDK\\.\\d+|Microsoft\\.VisualStudio\\.\\d{4}\\.BuildTools|Anaconda\\.Miniconda3|CondaForge\\.Miniforge3)$",
+      "reason": "development toolchain"
+    },
+    {
+      "manager": "scoop",
+      "pattern": "^(corretto\\d+-jdk|flutter|gcc|nodejs\\d*|python\\d*|rustup)$",
+      "reason": "development toolchain"
+    },
+    {
+      "manager": "rustup",
+      "pattern": ".*",
+      "reason": "Rust toolchain"
+    }
+  ],
+  "guardExceptions": [],
+  "ignored": [],
+  "ui": {
+    "height": "85%",
+    "preview": true
+  }
+}

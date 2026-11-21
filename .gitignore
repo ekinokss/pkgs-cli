@@ -1,0 +1,23 @@
+# Runtime state, never tracked
+config.json
+config.local.json
+*.local.json
+cache/
+preview-*/
+run/
+
+# Logs and temporary output
+*.log
+*.tmp
+*.bak
+
+# Test / benchmark artifacts
+tests/.artifacts/
+tests/tmp/
+benchmark-results.json
+
+# Editor and OS metadata
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

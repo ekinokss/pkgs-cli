@@ -1,0 +1,22 @@
+{
+  "winget": {
+    "id": "winget",
+    "name": "WinGet",
+    "packages": [
+      { "id": "WinMerge.WinMerge", "name": "WinMerge x64 (Current user, 64-bit)", "installed_version": "2.16.58.2", "latest_version": "2.16.60" }
+    ],
+    "errors": []
+  },
+  "scoop": {
+    "id": "scoop",
+    "name": "Scoop",
+    "packages": [],
+    "errors": []
+  },
+  "npm": {
+    "id": "npm",
+    "name": "Node npm",
+    "packages": [],
+    "errors": []
+  }
+}

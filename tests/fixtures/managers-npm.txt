@@ -1,0 +1,2 @@
+Manager ID  Name        CLI                       Version
+npm         Node npm    ✓ C:\fake\npm.cmd          ✓ 11.20.0
