@@ -3,11 +3,12 @@
 All notable changes to `pkgs`. The project follows a small, explicit
 `MAJOR.MINOR.PATCH` version in `pkgs-core.ps1`.
 
-## [1.2.3] — Maintenance candidate (not released)
+## [1.2.3] — Backend-version verification maintenance
 
 > Scope: mpm backend version detection and minimum-version gate hardening.
 > The JSON schema remains pkgs/v1. The deployed production installation
-> remains at v1.2.2 pending independent review, merge and release approval.
+> remained at v1.2.2 during release preparation; source publication and
+> production deployment are separate approval decisions.
 
 ### Fixed
 
@@ -24,11 +25,13 @@ All notable changes to `pkgs`. The project follows a small, explicit
 
 ### Verification
 
-- Corrective candidate passed 144 / 0, two expected profile-dependent
-  integration skips, before this private maintenance branch was prepared.
+- Final deterministic test suite: 147 PASS / 0 FAIL, with 2 expected
+  profile-dependent integration skips, on the approved private branch and
+  sanitized public candidate.
 - A separate isolated installer and profile-less launcher test passed; the
   existing production installation was unchanged.
-- Private-repository CI and final release approval: PENDING.
+- Private PR CI and post-merge `main` CI: PASS. Publication and production
+  deployment require separate authorization.
 - No new physical package-management lifecycle was tested for v1.2.3.
 
 ## [1.2.2]

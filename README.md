@@ -35,10 +35,10 @@ Avoid maintaining multiple independent `mpm` installations on the same machine.
 
 ## Install
 
-Clone the public repository once its address is finalized:
+Clone the public repository:
 
 ```powershell
-git clone PUBLIC_REPOSITORY_URL pkgs
+git clone https://github.com/ekinokss/pkgs-cli.git pkgs
 cd pkgs
 
 # Preview the deployment without changing files:
@@ -138,6 +138,4 @@ Read the [development guide](docs/development.md), [manager behavior](docs/manag
 
 ## Contributing and license
 
-Contributions and bug reports are welcome; please follow [CONTRIBUTING.md](CONTRIBUTING.md). The `pkgs` source in this public snapshot is offered under the [MIT License](LICENSE). External tools and packages retain their own licenses, including `mpm` ([GPL-2.0-or-later](https://github.com/kdeldycke/meta-package-manager/blob/main/license)).
-
-> **Publication status:** This README is part of a private, sanitized release candidate. Replace `PUBLIC_REPOSITORY_URL` with the actual public URL before publishing.
+Contributions and bug reports are welcome; please follow [CONTRIBUTING.md](CONTRIBUTING.md). The `pkgs` source is offered under the [MIT License](LICENSE). External tools and packages retain their own licenses, including `mpm` ([GPL-2.0-or-later](https://github.com/kdeldycke/meta-package-manager/blob/main/license)).
